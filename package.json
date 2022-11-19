@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "knex": "dotenv -e .env.local knex"
+    "knex": "dotenv -e .env.development.local knex"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -19,5 +19,19 @@
     "next-cookies": "^2.0.3",
     "react": "17.0.1",
     "react-dom": "17.0.1"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "knexfile.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virgiawankusuma/fullstack-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virgiawankusuma/fullstack-next/issues"
+  },
+  "homepage": "https://github.com/virgiawankusuma/fullstack-next#readme"
 }
